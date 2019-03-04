@@ -83,3 +83,9 @@ $ sudo dkms remove -m 8812au -v 4.2.2 --all
 - D-Link DWA-171
   - [D-Link page](http://www.dlink.com/no/nb/home-solutions/connect/adapters/dwa-171-wireless-ac-dual-band-usb-adapter)
   - [wikidevi page](http://wikidevi.com/wiki/D-Link_DWA-171_rev_A1)
+   
+2.解压rtl8812au-master
+3. cd rtl8812au-master
+4.make
+5.sudo make install
+6.sudo modprobe 8812au
